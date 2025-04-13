@@ -332,12 +332,21 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 4.8rem 4.8rem 4.8rem 4.9rem;
+  }
+
+  .multirow .image-with-text:nth-child(even) .image-with-text__content {
+    padding: 4.8rem 4.85rem 7rem;
   }
 }
 
 .image-with-text__content > * + * {
-  margin-top: 2rem;
+  margin-top: 2.4rem;
+}
+
+.image-with-text__text p{
+  font-size: 1.3rem;
+  line-height: 2.2rem;
 }
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
@@ -369,7 +378,7 @@
 
 .image-with-text__text p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -414,4 +423,64 @@
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
   }
+}
+
+
+.multi-image-with-text {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.multi-image-with-text .image-with-text__media-item {
+  gap: 3.2rem;
+  padding: 0 1rem;
+}
+
+.multi-image-with-text .image-with-text__content {
+  padding: 4.9rem 0 0;
+  line-height: 2.2rem;
+}
+
+.multi-image-with-text .grid__item {
+  width: calc(50% - 1.6rem);
+}
+
+@media screen and (min-width: 768px) {
+  .multi-image-with-text .image-with-text__media--adapt{
+    min-height: 617px;
+  }
+}
+
+.image-with-text__content--desktop-center .image-with-text__text {
+  text-indent: 3rem;
+}
+
+.image-with-text__content--desktop-center .image-with-text__text p {
+  margin-bottom: 0;
+}
+
+.multirow .image-with-text .image-with-text__media-item .image-with-text__media,
+.multirow .image-with-text .image-with-text__text-item .image-with-text__content {
+  border-radius: var(--text-boxes-radius) !important;
+  overflow: hidden;
+  border-width: 0;
+}
+
+.image-with-text__heading {
+  font-size: 6.3rem;
+  line-height: 7.4rem;
+}
+
+.image-with-text__text p + h6 {
+  margin-top: 2.4rem;
+}
+
+.multirow .image-with-text__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.multirow .image-with-text:nth-child(2n) .image-with-text__content .image-with-text__text {
+  margin-top: 4rem;
 }

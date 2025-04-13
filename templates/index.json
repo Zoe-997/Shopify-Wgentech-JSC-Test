@@ -1,75 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "multi_image_banner_kgAGUP": {
+      "type": "multi-image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "text_zF8t4h": {
+          "type": "text",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur eiusmod consectetur proident Lorem reprehenderit esse do anim velit in aliquip dolore ut officia. Consectetur reprehenderit proident do exercitation eu. Sunt fugiat pariatur elit est laboris quis. Esse mollit incididunt quis amet. Qui non irure incididunt laborum nisi cillum consequat aliquip aliquip cillum in. Ut excepteur labore voluptate tempor cupidatat dolor eiusmod do ipsum Lorem cupidatat do labore</p><p><br/>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "text_zF8t4h"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "section_heading": "Lorem ullamco",
+        "image": "shopify://shop_images/Lorem_ullamco.png",
+        "image_2": "shopify://shop_images/Lorem_ullamco-2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "multirow_iU8gRk": {
+      "type": "multirow",
+      "blocks": {
+        "row_hhqEVy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Lorem_ipsum.png",
+            "caption": "",
+            "heading": "Lorem ipsum",
+            "text": "<h6>Excepteur eiusmod consectetur</h6><p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p><h6>Quis aliqua reprehenderit</h6><p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p><h6>Ad sit cillum amet duis quis commodo</h6><p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_NztmxA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Mollit_aliquip_do_ipsum_consectetur.png",
+            "caption": "",
+            "heading": "Mollit aliquip do ipsum consectetur",
+            "text": "<p>Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor cupidatat. Ullamco dolore irure ea sit elit velit non officia. Ad eu reprehenderit in et voluptate mollit. Reprehenderit incididunt magna consequat enim sit eiusmod est dolor laborum cupidatat.</p><p>Ipsum minim mollit irure dolore. Sint fugiat deserunt dolor aute enim et cillum adipisicing cillum nostrud anim. Sit dolore incididunt dolore do sunt pariatur consectetur id qui pariatur eu incididunt adipisicing. Irure sint fugiat officia veniam consectetur. Esse laborum amet aliqua ad in sunt labore duis.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hhqEVy",
+        "row_NztmxA"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "scheme-5",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "multi_image_banner_kgAGUP",
+    "multirow_iU8gRk"
   ]
 }
